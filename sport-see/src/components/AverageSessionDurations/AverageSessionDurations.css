@@ -1,0 +1,25 @@
+.AverageSessionDurations {
+  background: red;
+}
+
+.AverageSessionDurations .x-axis {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.AverageSessionDurations .title {
+  fill: #ffffff80;
+  font-size: 15px;
+  width: 140px;
+}
+
+.AverageSessionDurations .curve {
+  fill: none;
+  stroke-width: 3;
+}
+
+.AverageSessionDurations .hover-duration-text {
+  font-size: 8px;
+  font-weight: 500;
+}

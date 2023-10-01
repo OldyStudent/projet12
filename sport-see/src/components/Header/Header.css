@@ -1,0 +1,22 @@
+.header {
+  background: var(--color-black);
+  padding: 15px 30px;
+  font-size: var(--font-size-large);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  height: 60px;
+  width: auto;
+}
+
+.header a {
+  color: white;
+}
+
+.header__menu {
+  display: flex;
+  gap: 60px;
+}

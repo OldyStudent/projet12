@@ -1,0 +1,81 @@
+.App {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "header header"
+    "sidebar content";
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: lightgray;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: lightblue;
+}
+.content-default {
+  display: grid;
+  place-items: center;
+}
+
+.content-error {
+  display: grid;
+  place-items: center;
+  color: var(--color-red);
+  text-align: center;
+}
+
+.content-error h1 {
+  font-size: 96px;
+  margin-bottom: 20px;
+}
+
+.content {
+  grid-area: content;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-areas:
+    "welcome welcome welcome welcome"
+    "daily daily daily infos"
+    "duration data score infos";
+
+  padding: 3rem;
+  gap: 30px;
+}
+
+.welcome {
+  grid-area: welcome;
+  margin-bottom: 20px;
+}
+
+.daily {
+  grid-area: daily;
+}
+
+.infos {
+  grid-area: infos;
+}
+
+.duration {
+  grid-area: duration;
+  /*aspect-ratio: 1;*/
+  /*max-width: 260px;*/
+}
+
+.data {
+  grid-area: data;
+  /*aspect-ratio: 1;*/
+  /*max-width: 260px;*/
+}
+
+.score {
+  grid-area: score;
+  /*aspect-ratio: 1;*/
+  /*max-width: 260px;*/
+}

@@ -1,0 +1,8 @@
+.WelcomeUser h1 {
+  font-size: var(--font-size-largest);
+  margin-bottom: 20px;
+}
+
+.WelcomeUser span {
+  color: var(--color-red);
+}

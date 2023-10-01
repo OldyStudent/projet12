@@ -1,0 +1,25 @@
+.sidebar {
+  background: var(--color-black);
+  color: white;
+  font-size: var(--font-size-smaller);
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 25px;
+  gap: 25%;
+}
+
+.sidebar p {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.sidebar__activities {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar__activities img {
+  max-width: 64px;
+}
