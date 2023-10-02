@@ -8,6 +8,13 @@ import {
   getLinearScale,
 } from "../../utils/d3-utils";
 
+/**
+ * Permet d'obtenir un tableau contenant la liste des coordonées des points d'un hexagone.
+ * @param {number} x - La coordonnée x du centre de l'hexagone.
+ * @param {number} y - La coordonnée y du centre de l'hexagone.
+ * @param {number} radius - Le rayon de l'hexagone.
+ * @returns {Array} Un tableau contenant les coordonnées des points de l'hexagone.
+ */
 function getHexagonPoints(x, y, radius) {
   const points = [];
   for (let i = 0; i < 6; i++) {
